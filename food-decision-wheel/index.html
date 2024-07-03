@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Decision Wheel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Food Decision Wheel</h1>
+  <div id="restaurants">
+    <input type="text" id="restaurant-input" placeholder="Enter restaurant">
+    <button onclick="addRestaurant()">Add</button>
+  </div>
+  <canvas id="wheel" width="500" height="500"></canvas>
+  <button onclick="spinWheel()">Spin the Wheel</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/winwheeljs@2.7.0/dist/Winwheel.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
